@@ -1,0 +1,218 @@
+.loadContainer {
+    position: relative;
+    width: 80%;
+    /* margin: 280px auto;  */
+    padding: 10px ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    margin-left:8%;
+  }
+  
+  .ds{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .ds:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: ds 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes ds{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 70%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 70%;
+      background: #494d5f;
+    }
+  }
+
+
+  .algo {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .algo:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: algo 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes algo{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 70%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 70%;
+      background: #494d5f;
+    }
+  } 
+
+  .dbms{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .dbms:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: dbms 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes dbms{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 75%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 90%;
+      background: #494d5f;
+    }
+  }
+
+
+
+  .oops{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .oops:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation:oops 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes oops{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 75%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 80%;
+      background: #494d5f;
+    }
+  }

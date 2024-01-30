@@ -1,0 +1,135 @@
+.about{
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+    margin-top: 20%;
+}
+.aboutP{
+    color:#828ba8;
+    margin-left: 32%;
+    margin-right: 2%;
+    margin-top: 0%;
+    text-align: justify;
+}
+.aboutI{
+    margin-right: 20%;
+    margin-top: 0%;
+    height: 14rem;
+    border-radius: 25px;
+    
+    /* filter:grayscale(100%); */
+    /* transition: filter 2s; */
+    animation: aboutI 5s infinite;
+}
+@keyframes aboutI {
+    0% {
+        transform:scale(1);
+        filter:grayscale(100%);
+      }
+      
+      /* 25% {
+        transform:scale(1.1);
+        filter:grayscale(50%);
+      } */
+      
+      50% {
+        transform:scale(1.2);
+        filter:grayscale(0%);
+      }
+      
+      /* 75% {
+        transform: scale(1.1);
+        filter:grayscale(50%);
+      } */
+      
+      100% {
+        transform:scale(1);
+        filter:grayscale(100%);
+      }
+}
+/* .aboutI:hover{
+    filter:grayscale(0%);
+} */
+.aboutSpan{
+    font-size: 26px;
+    color:  rgb(143, 253, 216);
+}
+.aboutS{
+    color:  rgba(138, 250, 213, 0.395);
+}
+
+@media screen and (max-width: 950px)
+{
+  .aboutP{
+    margin-left: 15%;
+    margin-right: 4%;
+    margin-top: 0%;
+  }
+  .aboutI{
+    margin-right: 10%;
+    margin-top: 1%;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 650px)
+{
+  .aboutP{
+    margin-left: 0%;
+    margin-right: 4%;
+    margin-top: 0%;
+  }
+  .aboutI{
+    margin-left: 6%;
+    margin-top: 6%;
+    height: 8rem;
+  }
+  .about{
+    flex-direction: row-reverse;
+  }
+}
+
+
+@media screen and (max-width: 580px)
+{
+  .aboutP{
+    margin-left: 0%;
+    margin-right: 4%;
+    margin-top: 0%;
+  }
+  .aboutI{
+    margin-left: 6%;
+    margin-top: 3%;
+    height: 6rem;
+    border-radius: 45px;
+  }
+  .about{
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 450px)
+{
+  .about{
+    margin-top: 40%;
+    padding-bottom: 100px;
+}
+  .aboutP{
+    margin-left: -5%;
+    margin-right: 4%;
+    margin-top: 0%;
+    text-align: justify;
+  }
+  .aboutI{
+    margin-left: 4%;
+    margin-top: 1%;
+    height: 3rem;
+    border-radius: 50px;
+  }
+  .about{
+    flex-direction: row-reverse;
+  }
+  .aboutSpan{
+    font-size: 20px;
+}
+}

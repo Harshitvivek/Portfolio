@@ -1,0 +1,38 @@
+.iconsB{
+    display: none;
+    color: white;
+    position:fixed;
+    bottom: 0px;
+    z-index: 5;
+}
+.iconImg{
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+.iconImg:hover{
+    /* background-color: rgba(0, 255, 170, 0.162); */
+    box-shadow: 1px 1px 8px 2px #63ffdb;
+}
+
+
+@media screen and (max-width:600px)
+{
+    .icons{
+        background-color: #0a192f;
+        display: inline-flex;
+        flex-direction: row;
+        position:fixed;
+        bottom: 0px;
+        z-index: 5;
+        width: 80%;
+        height: 40px;
+        margin-top: 0px;
+        justify-content: space-evenly;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .iconImg{
+        width:2%;
+        height: 20px;
+    }
+}

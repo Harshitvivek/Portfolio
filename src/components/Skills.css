@@ -1,0 +1,36 @@
+.skills{
+   
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22%;
+    width: 56%;
+    margin-top: 15%;
+}
+.cards{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.head h1{
+    color:  #63ffdb;
+}
+
+@media screen and (max-width:950px)
+{
+    .skills{
+        margin-left: 15%;
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:760px)
+{
+    .skills{
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+}

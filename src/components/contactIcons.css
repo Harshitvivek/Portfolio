@@ -1,0 +1,38 @@
+.icons{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+    height: 400px;
+    margin-top: 250px;
+    /* background-color: #63ffdb; */
+    color: white;
+    position:fixed;
+    left: 0px;
+}
+.iconImg{
+    width:15%;
+    height: 25px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+.iconImg:hover{
+    /* background-color: rgba(0, 255, 170, 0.162); */
+    box-shadow: 1px 1px 8px 2px #63ffdb;
+}
+/* #leftFixedIcons{
+    position:fixed;
+}
+#rightFixedIcons{
+    position:fixed;
+    width: 500%;
+} */
+
+@media screen and (max-width: 950px)
+{
+    .icons
+    {
+        display:none;
+    }
+}

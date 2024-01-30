@@ -1,0 +1,25 @@
+body{
+    background-color: #0a192f;
+}
+.navItems{
+    display: inline-flex;
+    width: 97%;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+}
+.navLinks{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+.navSpan{
+    color: rgb(143, 253, 216);
+    font-size: 23px;
+}

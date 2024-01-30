@@ -1,0 +1,218 @@
+.loadContainer {
+    position: relative;
+    width: 80%;
+    /* margin: 280px auto;  */
+    padding: 10px ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    margin-left:8%;
+  }
+  
+  .vs{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .vs:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: vs 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes vs{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 70%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 70%;
+      background: #494d5f;
+    }
+  }
+
+
+  .github {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .github:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: github 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes github{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 75%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 80%;
+      background: #494d5f;
+    }
+  } 
+
+  .git{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .git:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: git 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes git{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 70%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 70%;
+      background: #494d5f;
+    }
+  }
+
+
+
+  .up{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .up:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation:up 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes up{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 20%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 20%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 20%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 20%;
+      background: #494d5f;
+    }
+  }

@@ -1,0 +1,221 @@
+.loadContainer {
+    position: relative;
+    width: 80%;
+    /* margin: 280px auto;  */
+    padding: 10px ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    margin-left:8%;
+  }
+  
+  /* 60% */
+  .mongo {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .mongo:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: mongo 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes mongo{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 60%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 60%;
+      background: #494d5f;
+    }
+  }
+
+/* /80% */
+  .sql {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .sql:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: sql 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes sql{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 80%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 80%;
+      background: #494d5f;
+    }
+  } 
+
+
+  /* 50% */
+  .fire{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .fire:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: fire 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes fire{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 50%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 50%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 50%;
+      background: #494d5f;
+    }
+  }
+
+
+/* 50% */
+  .oracle{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    /* /* margin-left: 20% */
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .oracle:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation:oracle 5s ease-in-out infinite;
+  }
+
+  
+  @keyframes oracle{
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    25% {
+      width: 40%;
+      background: #a0d2eb;
+    }
+    
+    50% {
+      width: 50%;
+      background: #ffa8b6;
+    }
+    
+    75% {
+      width: 50%;
+      background: #d0bdf4;
+    }
+    
+    100% {
+      width: 50%;
+      background: #494d5f;
+    }
+  }
